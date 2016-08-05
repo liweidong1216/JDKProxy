@@ -13,6 +13,7 @@ public class TestProxy {
 		Calculate proxyObject = (Calculate) new ProxyPrivader(new MyCalculate()).getProxyObject();
 		proxyObject.add(5,6);
 		System.out.println(proxyObject.div(6, 3));
+		System.out.println(proxyObject.ride(6, 3));
 		//proxyObject.cut(6, 5);
 	}
 	
